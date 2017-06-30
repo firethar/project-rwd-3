@@ -141,6 +141,10 @@ strong {
   margin: 0 auto;
   background: url(../img/bg-1.jpg) center center no-repeat;
   background-size: cover;
+<<<<<<< HEAD
+=======
+  background-attachment: fixed;
+>>>>>>> 75ccb73a0c67c7c72c3183852b00aed60951f987
   box-shadow: inset 1px 5px 20px 0px rgba(0, 0, 0, 0.6);
 }
 
@@ -191,7 +195,12 @@ strong {
   height: 820px;
   margin: 0 auto;
   background: url(../img/bg-2.jpg) center bottom no-repeat;
+<<<<<<< HEAD
   background-size: auto 450px;
+=======
+  background-size: cover;
+  background-attachment: fixed;
+>>>>>>> 75ccb73a0c67c7c72c3183852b00aed60951f987
   overflow: hidden;
   color: #ffffff;
 }
@@ -479,6 +488,7 @@ strong {
     margin: 0 auto;
     background: url(../img/bg-1-mobile.jpg) center center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     overflow: hidden;
   }
   #tracking ul li {
@@ -488,7 +498,8 @@ strong {
   #stats {
     height: 905px;
     background: transparent url(../img/bg-2-mobile.jpg) center bottom no-repeat;
-    background-size: auto 815px;
+    background-size: cover;
+    background-attachment: fixed;
   }
   #stats .wrapper {
     height: 90px;
@@ -660,6 +671,7 @@ strong {
     margin: 0 auto;
     background: url(../img/bg-1-mobile.jpg) center center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     overflow: hidden;
   }
   #tracking ul li {
@@ -669,7 +681,8 @@ strong {
   #stats {
     height: 905px;
     background: transparent url(../img/bg-2-mobile.jpg) center bottom no-repeat;
-    background-size: 100% 815px;
+    background-size: cover;
+    background-attachment: fixed;
   }
   #stats .wrapper {
     height: 90px;
