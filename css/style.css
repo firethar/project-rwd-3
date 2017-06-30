@@ -11,15 +11,17 @@ font-weight:
 
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 .clearfix:before,
 .clearfix:after,
 .content:before,
@@ -27,43 +29,52 @@ font-weight:
   display: table;
   content: " ";
 }
+
 .clearfix:after,
 .content:after {
   clear: both;
 }
+
 body {
-	margin: 0 auto;
-	font-family: 'Hind Madurai', sans-serif;
+  margin: 0 auto;
+  font-family: 'Hind Madurai', sans-serif;
   max-width: 1920px;
   text-align: center;
   overflow-x: hidden;
 }
+
 .content {
   position: relative;
   margin: 0 auto;
 }
+
 .wrapper {
   position: relative;
   width: 100%;
   height: auto;
 }
 
+
 /* content width for all breakpoints */
+
 @media (max-width: 639px) {
   .content {
     width: 320px;
   }
 }
+
 @media (min-width: 640px) {
   .content {
     width: 620px;
   }
 }
+
 @media (min-width: 960px) {
   .content {
     width: 940px;
   }
 }
+
 @media (min-width: 1220px) {
   .content {
     width: 1200px;
@@ -74,9 +85,11 @@ body {
   color: #ff0010;
   font-weight: 700;
 }
+
 strong {
   font-weight: 700;
 }
+
 #home {
   position: relative;
   height: 515px;
@@ -88,7 +101,7 @@ strong {
   position: absolute;
   bottom: 0;
   display: block;
-  width: 100%; 
+  width: 100%;
   height: 150px;
   padding-top: 75px;
   background: #ff0010;
@@ -96,12 +109,14 @@ strong {
   font-weight: 300;
   color: #ffffff;
 }
+
 .top-logo {
   position: absolute;
   bottom: 75px;
   left: 50%;
-  margin-left: -90px; 
+  margin-left: -90px;
 }
+
 .phone-left {
   position: absolute;
   bottom: 185px;
@@ -110,9 +125,11 @@ strong {
   height: 487px;
   float: left;
 }
+
 .phone-right {
   position: absolute;
-  bottom: 165px; right:-245px;
+  bottom: 165px;
+  right: -245px;
   width: 351px;
   height: 501px;
   float: right;
@@ -123,15 +140,15 @@ strong {
   height: 750px;
   margin: 0 auto;
   background: url(../img/bg-1.jpg) center center no-repeat;
-	background-size: cover;
+  background-size: cover;
   box-shadow: inset 1px 5px 20px 0px rgba(0, 0, 0, 0.6);
 }
 
 #tracking ul {
   margin: 75px auto 115px;
   display: block;
-
 }
+
 #tracking ul li {
   text-align: center;
   color: #ffffff;
@@ -140,23 +157,28 @@ strong {
   height: 110px;
   margin: 0 auto;
 }
+
 #tracking ul li:hover {
   cursor: pointer;
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
+
 #tracking ul li span {
   display: block;
   text-align: center;
 }
+
 #tracking .name {
   padding: 10px 0;
   font-size: 18px;
   font-weight: 300;
 }
+
 #tracking .count {
   font-size: 30px;
   font-weight: 700;
 }
+
 #tracking p {
   color: #ffffff;
   font-size: 29px;
@@ -164,22 +186,22 @@ strong {
   font-weight: 300;
 }
 
-
-
 #stats {
   position: relative;
   height: 820px;
   margin: 0 auto;
   background: url(../img/bg-2.jpg) center bottom no-repeat;
-	background-size:  auto 450px;
-  overflow: hidden;	
+  background-size: auto 450px;
+  overflow: hidden;
   color: #ffffff;
 }
+
 #stats .wrapper {
   background: #ff0010;
   height: 380px;
   width: 100%;
 }
+
 #stats h2 {
   display: block;
   width: 588px;
@@ -190,6 +212,7 @@ strong {
   text-transform: uppercase;
   text-align: left;
 }
+
 #stats .side {
   display: block;
   width: 390px;
@@ -197,6 +220,7 @@ strong {
   margin-top: -125px;
   float: right;
 }
+
 .side li {
   padding-left: 30px;
   font-size: 24px;
@@ -205,9 +229,11 @@ strong {
   text-align: left;
   background: transparent url('../img/ico-climb.png') left center no-repeat;
 }
+
 .medium-strong {
   font-weight: 600;
 }
+
 #stats p {
   display: block;
   width: 826px;
@@ -217,6 +243,7 @@ strong {
   text-align: right;
   float: right;
 }
+
 #stats .featured {
   margin-top: -120px;
   float: left;
@@ -227,8 +254,8 @@ strong {
   height: 1000px;
   margin: 0 auto;
   background: url(../img/bg-3.jpg) center bottom no-repeat;
-	background-size: auto 770px;
-  overflow: hidden;	
+  background-size: auto 770px;
+  overflow: hidden;
 }
 
 #share .wrapper {
@@ -237,23 +264,28 @@ strong {
   background: #572f31;
   color: #ffffff
 }
+
 #share h2 {
   display: none;
 }
+
 #share h3 {
   font-size: 34px;
   font-weight: 700;
 }
+
 #share p {
   font-size: 24px;
   font-weight: 300;
 }
+
 #share .users {
   display: block;
   margin: 0 auto;
-  width: 100%; 
+  width: 100%;
   height: 100%;
 }
+
 #share .users li {
   display: block;
   width: 25%;
@@ -263,66 +295,77 @@ strong {
   float: left;
 }
 
-#share .users li:nth-child(2n+1){
+#share .users li:nth-child(2n+1) {
   padding-top: 50px;
   background: rgba(87, 47, 49, 0.4);
 }
+
 #share .users li:hover {
   cursor: pointer;
   background: rgba(255, 0, 16, 0.6);
 }
+
 #share .users li * {
   display: block;
   margin: 10px auto 0;
   text-align: center;
   color: #ffffff
 }
+
 #share .users img {
   margin-bottom: 5px;
   max-width: 100%;
 }
+
 #share .users .name {
   font-size: 24px;
   font-weight: 700;
 }
+
 #share .users .activity-ico {
   padding-top: 15px;
 }
+
 #share .users .activity-name {
   font-size: 14px;
   font-weight: 400;
 }
+
 #share .users .activity-value {
   font-size: 24px;
   font-weight: 400;
 }
 
-
 #contact {
   position: relative;
   margin: 0 auto;
-  overflow: hidden;	
+  overflow: hidden;
   color: #ffffff;
 }
+
 #contact h2 {
   padding: 230px 0 45px;
   background: #ff0010;
   font-size: 40px;
   font-weight: bold;
 }
+
 #contact .wrapper {
   position: relative;
   height: 615px;
   background: url(../img/bg-4.jpg) center center no-repeat;
-	background-size: cover;
+  background-size: cover;
   background-position-y: bottom;
 }
+
 .logo-bottom {
   position: absolute;
-  top: 0; left: 50%;
+  top: 0;
+  left: 50%;
   margin-top: -270px;
   margin-left: -70px;
 }
+
 #contact h3 {
   padding-top: 30px;
   font-size: 24px;
@@ -334,21 +377,24 @@ strong {
   font-size: 24px;
   font-weight: 300;
 }
+
 #contact .big-highlight {
   font-weight: 700;
 }
+
 #contact .big-highlight span {
   color: #ff0010;
   font-size: 46px;
 }
+
 .buttons {
   margin: 30px auto 90px;
 }
+
 .buttons li {
   display: inline-block;
   padding: 0 15px;
 }
-
 
 .social {
   display: inline-block;
@@ -357,53 +403,65 @@ strong {
   padding-top: 50px;
   vertical-align: middle;
 }
+
 .social li {
   display: inline-block;
 }
+
 .social li a {
   display: block;
   text-indent: -99999px;
-  width: 39px; height: 39px;
-  margin-left: 5px; 
+  width: 39px;
+  height: 39px;
+  margin-left: 5px;
   margin-right: 5px;
   font-size: 0;
 }
+
 .social li a.facebook-ico {
   background: url(../img/ico-facebook.png) center center no-repeat;
   background-size: 39px;
 }
+
 .social li a.twitter-ico {
   background: url(../img/ico-twitter.png) center center no-repeat;
   background-size: 39px;
 }
+
 .social li a.youtube-ico {
   background: url(../img/ico-youtube.png) center center no-repeat;
   background-size: 39px;
 }
+
 .social li a.facebook-ico:hover {
   background: url(../img/ico-facebook-hover.png) center center no-repeat;
   background-size: 39px;
 }
+
 .social li a.twitter-ico:hover {
   background: url(../img/ico-twitter-hover.png) center center no-repeat;
   background-size: 39px;
 }
+
 .social li a.youtube-ico:hover {
   background: url(../img/ico-youtube-hover.png) center center no-repeat;
   background-size: 39px;
 }
+
 .copyrights {
   padding-top: 50px;
   color: #000000;
   text-align: center;
 }
 
+
 /* small mobile display */
+
 @media (max-width: 639px) {
   .hide-small {
     display: none;
   }
-  #home{
+  #home {
     height: 300px;
   }
   #home h1 {
@@ -411,11 +469,10 @@ strong {
     padding-top: 12px;
     font-size: 28px;
   }
-  .phone-left, 
-  .phone-right{
+  .phone-left,
+  .phone-right {
     display: none;
   }
-
   #tracking {
     position: relative;
     height: 1200px;
@@ -427,15 +484,13 @@ strong {
   #tracking ul li {
     height: 180px;
   }
-  #tracking p {
-
-  }
+  #tracking p {}
   #stats {
     height: 905px;
     background: transparent url(../img/bg-2-mobile.jpg) center bottom no-repeat;
     background-size: auto 815px;
   }
-  #stats .wrapper{
+  #stats .wrapper {
     height: 90px;
   }
   #stats h2 {
@@ -468,11 +523,10 @@ strong {
   .medium-strong {
     font-weight: 600;
   }
-
   #share {
     height: 700px;
   }
-  #share .content{
+  #share .content {
     width: 100%;
   }
   #share .wrapper {
@@ -523,7 +577,6 @@ strong {
   #share .users .name {
     font-size: 20px;
   }
-  
   .logo-bottom {
     width: 70px;
     height: auto;
@@ -533,9 +586,9 @@ strong {
   #contact .wrapper {
     height: auto;
     background: url(../img/bg-4-mobile.jpg) center bottom no-repeat;
-    background-size: cover; 
+    background-size: cover;
   }
-  #contact h2{
+  #contact h2 {
     padding: 25px 0 25px;
     background: #ff0010;
     font-size: 24px;
@@ -555,8 +608,6 @@ strong {
   #contact p.big-highlight span {
     display: none;
   }
-
-
   .buttons {
     margin: 30px auto 50px;
   }
@@ -579,19 +630,19 @@ strong {
     padding-bottom: 15px;
     font-size: 16px;
   }
-
 }
+
+
 /* mobile displays */
+
 @media (min-width: 640px) and (max-width: 959px) {
   .hide-small {
     display: none;
   }
-
-
   .hide-small {
     display: none;
   }
-  #home{
+  #home {
     height: 300px;
   }
   #home h1 {
@@ -599,11 +650,10 @@ strong {
     padding-top: 12px;
     font-size: 28px;
   }
-  .phone-left, 
-  .phone-right{
+  .phone-left,
+  .phone-right {
     display: none;
   }
-
   #tracking {
     position: relative;
     height: 1200px;
@@ -615,15 +665,13 @@ strong {
   #tracking ul li {
     height: 180px;
   }
-  #tracking p {
-
-  }
+  #tracking p {}
   #stats {
     height: 905px;
     background: transparent url(../img/bg-2-mobile.jpg) center bottom no-repeat;
     background-size: 100% 815px;
   }
-  #stats .wrapper{
+  #stats .wrapper {
     height: 90px;
   }
   #stats h2 {
@@ -656,11 +704,10 @@ strong {
   .medium-strong {
     font-weight: 600;
   }
-
   #share {
     height: 700px;
   }
-  #share .content{
+  #share .content {
     width: 100%;
   }
   #share .wrapper {
@@ -711,7 +758,6 @@ strong {
   #share .users .name {
     font-size: 20px;
   }
-  
   .logo-bottom {
     width: 70px;
     height: auto;
@@ -722,7 +768,7 @@ strong {
     height: auto;
     background: url(../img/bg-4-mobile.jpg) center bottom no-repeat;
   }
-  #contact h2{
+  #contact h2 {
     padding: 25px 0 25px;
     background: #ff0010;
     font-size: 24px;
@@ -742,8 +788,6 @@ strong {
   #contact p.big-highlight span {
     display: none;
   }
-
-
   .buttons {
     margin: 30px auto 50px;
   }
@@ -766,12 +810,8 @@ strong {
     padding-bottom: 15px;
     font-size: 16px;
   }
-
-
-
-
-  .phone-left, 
-  .phone-right{
+  .phone-left,
+  .phone-right {
     display: none;
   }
   #tracking ul li {
@@ -784,16 +824,17 @@ strong {
   }
 }
 
+
 /* tablet displays */
+
 @media (min-width: 960px) and (max-width: 1199px) {
   #stats .featured {
     margin-top: -130px;
   }
 }
+
 @media (min-width: 1200px) {
   .hide-desktop {
     display: none
   }
 }
-
-
